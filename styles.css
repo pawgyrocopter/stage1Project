@@ -1,18 +1,44 @@
-div{
-    margin: 10px;
+.sidebar{
+    margin: 0px 0px 0px 0px;
     border: 1px solid black;
     font-size: 20px;
-    height: 80px;
+    height: 40em;
+    width: 15em;
+    float: left ;
 }
-
-#header{
-    background-color: blue;
+.menu{
+    margin: 0px 0px 0px 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 1.75em;
+    width: 25em;
+    float: left;
 }
-
-#main{
-    background-color: brown;
+.searchbar{
+    margin: 0px 10px 0px 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 1.75em;
+    width: 20em;
+    float: left;
 }
-
-#sidebar{
-    background-color: aquamarine;
+.content {
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top:200px;
+    float: left ;
+}
+li {
+    display:inline-block;
+    float: right;
+}
+ul {
+    margin-left: 0px;
+    padding:0
+}
+.image{
+    width: 10px
+}
+.rounded-circle{
+    display: inline-block;
 }
