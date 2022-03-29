@@ -26,19 +26,37 @@
     border: 1px solid black;
     font-size: 20px;
     margin-top:200px;
-    float: left ;
+    float: right ;
 }
 li {
-    display:inline-block;
-    float: right;
+    list-style-type: none;
 }
 ul {
-    margin-left: 0px;
-    padding:0
+    display:inline-flex;
+    margin : 0px;
 }
 .image{
     width: 10px
 }
-.rounded-circle{
-    display: inline-block;
+.form-control{
+    border-width : 1px
 }
+
+.container{
+    border: 1px solid black;
+
+    width: 100%;
+}
+.container-fluid{
+    display:flex;
+    border: 1px solid black;
+    width: 100%;
+}
+.item{
+    border: 1px solid black;
+    flex-grow: 0;
+}
+a{
+    display: inline-flex;
+}
+
